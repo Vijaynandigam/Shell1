@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if [ $# -eq 0];
+if [ $# -eq 0 ];
 then
   echo "Please provide a director name as argument"
   exit 1

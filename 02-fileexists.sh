@@ -8,7 +8,7 @@ fi
 
 filepath=$1
 
-if [ -f "$filepath"];
+if [ -f "$filepath" ];
 then
   echo " File exists"
 else 

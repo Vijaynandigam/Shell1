@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if [ $# -nq 2 ];
+if [ $# -ne 2 ];
 then
   echo " usage : $0 <word> <directory>"
   exit 1

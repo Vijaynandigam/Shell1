@@ -10,9 +10,9 @@ string=$1
 
 reversed_string=$(rev <<< "$string")
 
-if [ "$string" = "$reversed_string"];
+if [ "$string" = "$reversed_string" ];
 then
-  echo " $stting is a palindrome
+  echo " $string is a palindrome
  else
    echo " $string is not a palindrome"
 fi    
