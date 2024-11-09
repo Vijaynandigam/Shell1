@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if [ $# eq 0 ];
+if [ $# -eq 0 ];
 then
   echo "Please provide a filename as argument"
   exit 1
